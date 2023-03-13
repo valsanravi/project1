@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="umane">YourName</label>
+        <input type="text"><br>
+        <label for="umail">email</label>
+        <input type="email"><br>
+        <label for="upass">password</label>
+        <input type="password"><br>
+        <label for="upass2">confirm password</label>
+        <input type="password"><br>
+        <button type="submit" onclick="alert('registered successfully')">register</button>
+    </form>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="uname">username</label>
+        <input type="text" name="uname"><br>
+        <label for="upass">password</label>
+        <input type="password" name="upass"><br>
+        <button type="submit" onclick="alert('login successfully')">login</button>
+        <a href="register.html">dont have an account</a>
+    </form>
+</body>
+
+</html>
